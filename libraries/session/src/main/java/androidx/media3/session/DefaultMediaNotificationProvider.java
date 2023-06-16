@@ -369,7 +369,7 @@ public class DefaultMediaNotificationProvider implements MediaNotification.Provi
             .setSmallIcon(smallIconResourceId)
             .setStyle(mediaStyle)
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-            .setOngoing(false)
+            .setOngoing(true)
             .build();
     return new MediaNotification(notificationId, notification);
   }
